@@ -8,10 +8,12 @@ o.ORDERSELLINGPRICE,
 o.ORDERCOSTPRICE,
 o.ORDERSELLINGPRICE - o.ORDERCOSTPRICE as ORDERPROFIT,
 --Estos campos vienen de raw customer
+c.customerid,
 c.customername,
 c.segment,
 c.country,
 --Estos campos vienen de raw product
+p.productid,
 p.category,
 p.productname,
 p.subcategory
